@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  align-items: center;
+  .logo {
+    display: flex;
+    margin-right: auto;
+    margin-top: 61px;
+    margin-left: 121px;
+  }
+  nav {
+    ul {
+      display: flex;
+      margin-top: 61px;
+      margin-right: 121px;
+      list-style-type: none;
+    }
+    li {
+      a {
+        display: flex;
+        text-decoration: none;
+        margin: 10px;
+      }
+    }
+  }
+}

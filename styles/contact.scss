@@ -1,0 +1,98 @@
+body {
+  max-width: 1360px;
+  width: 100%;
+  background: #ffffff;
+  .main-container {
+    max-width: 1110px;
+    width: 100%;
+    .main {
+      width: 100%;
+      box-sizing: border-box;
+      margin-top: 110px;
+      padding: 0 20px;
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-left: 115px;
+      &-details {
+        max-width: 445px;
+        width: 100%;
+        &-title {
+          max-width: 475px;
+          width: 100%;
+          margin-top: 100px;
+        }
+
+        &-text {
+          max-width: 445px;
+          width: 100%;
+          font-family: Mulish;
+          font-size: 16px;
+          color: #111111;
+          opacity: 0.8;
+        }
+      }
+    }
+    .form-container {
+      max-width: 475px;
+      width: 100%;
+      .main-form {
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        input {
+          width: 350px;
+          border: none;
+          border-bottom: 1px solid black;
+          margin-bottom: 25px;
+          &:focus {
+            background-color: rgba(74, 80, 242, 0.61);
+          }
+          &:hover {
+            background-color: rgba(74, 80, 242, 0.61);
+          }
+          textarea {
+            width: 350px;
+            border: none;
+            border-bottom: 1px solid black;
+            &:focus {
+              background-color: rgba(74, 80, 242, 0.61);
+            }
+
+            &:hover {
+              background-color: rgba(74, 80, 242, 0.61);
+            }
+          }
+        }
+      }
+      .button {
+        margin-top: 40px;
+        max-width: 125px;
+        width: 100%;
+        height: 50px;
+        background-color: #4a4ff2;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        &:hover {
+          background-color: rgba(74, 80, 242, 0.61);
+          color: #111111;
+          text-decoration: underline;
+        }
+      }
+      .map {
+        max-width: 1110px;
+        width: 100%;
+        height: 570px;
+        box-sizing: border-box;
+        margin-top: 160px;
+        margin-left: 285px;
+        padding: 0 20px;
+      }
+    }
+  }
+}

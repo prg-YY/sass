@@ -1,0 +1,36 @@
+.footer {
+  max-width: 1110px;
+  width: 100%;
+  border-top: 1px solid #d8d8d8;
+  margin-left: 125px;
+  margin-top: 114px;
+  .nav-footer {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .footer-left {
+      margin-top: 114px;
+      .logo-footer {
+        max-width: 90px;
+        width: 100%;
+      }
+    }
+    .footer-right {
+      display: inline-flex;
+      margin-top: 114px;
+      .list-footer {
+        width: 100%;
+        list-style: none;
+        display: inline-flex;
+        margin-top: 0;
+      }
+      .social-footer {
+        max-width: 95px;
+        width: 100%;
+      }
+    }
+  }
+}

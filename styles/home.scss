@@ -1,0 +1,176 @@
+$main-font: "Mulish", sans-serif;
+main {
+  .container-1 {
+    display: flex;
+    .title {
+      width: 635px;
+      height: 191px;
+      margin-top: 96px;
+      margin-left: 125px;
+      .title h5 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: -0.423077px;
+        color: #4a4ff2;
+      }
+      .title p {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        /* or 150% */
+        color: #111111;
+      }
+    }
+    .quote {
+      width: 212px;
+      height: 34px;
+      margin-top: 251px;
+      margin-left: 190px;
+      font-family: $main-font;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 23px;
+      color: #111111;
+      mix-blend-mode: normal;
+      opacity: 0.6;
+    }
+  }
+  .frame {
+    width: 1110px;
+    height: 1960px;
+    margin-top: 144px;
+    margin-left: 125px;
+    .grid-container {
+      display: grid;
+      grid-template-rows: repeat(12, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 8px;
+    }
+  }
+  .group {
+    max-width: 1100px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    .grid-list-container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 3fr 1fr 1fr;
+      .group-text {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 38px;
+        /* or 136% */
+        margin-top: 90px;
+        margin-left: 126px;
+        padding: 0 20px;
+        color: #111111;
+      }
+      .list-middle {
+        list-style: none;
+        font-size: 18px;
+        color: #111111;
+        opacity: 0.6;
+        margin-top: 99px;
+        margin-left: 94px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .list-right {
+        list-style: none;
+        font-size: 18px;
+        opacity: 0.6;
+        color: #111111;
+        margin-top: 99px;
+        margin-left: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  }
+  .awards-container {
+    max-width: 1110px;
+    width: 100%;
+    border-top: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left: 121px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    .grid-awards {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 10px;
+      .awards {
+        color: #111111;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      .awards-site {
+        color: #111111;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      .awards-ui {
+        color: #111111;
+        font-size: 16px;
+        grid-column: 4/5;
+        margin-top: 38px;
+        p {
+          line-height: 1.6;
+          opacity: 0.6;
+        }
+      }
+      .awards-date {
+        color: #111111;
+        font-size: 16px;
+        text-align: end;
+        margin-top: 38px;
+        opacity: 0.6;
+      }
+
+      .awards-best {
+        color: #111111;
+        font-size: 21px;
+        font-weight: bold;
+        grid-column: 2/3;
+      }
+
+      .awards-template {
+        color: #111111;
+        font-size: 16px;
+        grid-column: 4/5;
+        margin-top: 18px;
+        p {
+          line-height: 1.6;
+          opacity: 0.6;
+        }
+      }
+      .awards-date--two {
+        text-align: end;
+        margin-top: 18px;
+        opacity: 0.6;
+      }
+    }
+  }
+}
