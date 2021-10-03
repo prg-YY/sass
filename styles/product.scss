@@ -49,7 +49,7 @@ body {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(6, 1fr);
         .main-list-title {
-          font-family: Mulish;
+          font-family: $main-font;
           font-style: normal;
           font-weight: bold;
           font-size: 18px;
@@ -59,7 +59,7 @@ body {
           opacity: 0.5;
         }
         .main-list-item {
-          font-family: Mulish;
+          font-family: $main-font;
           font-weight: bold;
           font-size: 18px;
           border-top: 1px solid #d8d8d8;
@@ -80,7 +80,7 @@ body {
     width: 100%;
     margin-left: 125px;
     margin-top: 45px;
-    font-family: Mulish;
+    font-family: $main-font;
     font-size: 16px;
     color: #111111;
     opacity: 0.8;
